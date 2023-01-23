@@ -145,8 +145,53 @@ try () {
 **1. Min Max Sum [problem here](https://www.hackerrank.com/challenges/three-month-preparation-kit-mini-max-sum/problem)**
 
 <details>
-     <summary>Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. Then print the respective minimum and maximum values as a single line of two space-separated long integers.
-</summary>
+Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. Then print the respective minimum and maximum values as a single line of two space-separated long integers.
+
+<br>
+
+
+### Chris ¯\\_(ツ)_/¯ 👩🏽‍🦰
+
+* we are going to write a function that takes in an array that is five positive integers, where X > 0
+
+* sets to varaible called minsum and max sum
+
+* first step is sort the in ascending orde
+
+* second step slice the first four in the array
+
+* then sum that array
+
+* do another function that does it descending order
+
+* then slice the first four indeces of the array
+
+* then sum that array
+
+```
+const Minsum = arr.reduce(add, 0); 
+
+function add(accumulator, a) {
+  return accumulator + a;
+}
+
+console.log(sum);
+```
+
+###  Michael ¯\\_(ツ)_/¯ 🧑🏽‍🦰
+
+* sort all the data in ascending order
+
+* add all the values together (sum)
+
+* subtract the largest number from the sum (sum - index[4] = min sum)
+
+* subtract the smallest value from the sum (sum - index[0] = max sum)
+
+
+     <summary>
+     
+     </summary>
 </details>
 <br></br>
 
